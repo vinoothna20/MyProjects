@@ -1,0 +1,126 @@
+@media screen and (max-width: 1439px) {
+  #course {
+    padding: 40px;
+  }
+
+  #course > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    margin: 0px 0px;
+    grid-column-gap: 70px;
+    color: #262626;
+  }
+
+  #course > div > img {
+    width: 336px;
+    height: 340px;
+    border-radius: 20px;
+  }
+
+  #curriculum {
+    display: block;
+    padding: 50px 30px;
+    height: auto;
+  }
+
+  #curriculum > div {
+    width: 100%;
+    height: auto;
+  }
+
+  #curriculum > div > div:first-child {
+    width: 50%;
+    margin: 0;
+    padding: 10px 0 20px 20px;
+  }
+
+  #curriculum > div > div:first-child h1 {
+    font-size: 35px;
+  }
+
+  #curriculum > div > div:first-child p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.9rem;
+  }
+
+  #curriculum > div > div:nth-child(2) {
+    justify-content: unset;
+  }
+
+  #curriculum > div > div:nth-child(2) > div:first-child {
+    flex: 1;
+  }
+
+  #curriculum > div > div:nth-child(2) > div:first-child li {
+    font-size: 20px;
+  }
+
+  #curriculum > div > div:nth-child(2) > div:last-child img {
+    width: 450px;
+    height: 350px;
+  }
+
+  #curriculum > div > div:last-child {
+    margin: 0;
+    padding: 50px 20px;
+  }
+
+  /* #instructor > div {
+    color: #262626;
+    margin: 80px 60px;
+  } */
+
+  #instructor > div > h1 {
+    font-size: 35px;
+  }
+
+  #instructor > div > div {
+    column-gap: 50px;
+  }
+
+  #instructor > div > div > div:first-child > img {
+    width: 400px;
+    height: 350px;
+  }
+
+  #instructor > div > div > div:last-child {
+    width: 100%;
+  }
+
+  #instructor > div > div:last-child h1 {
+    font-size: 28px;
+  }
+
+  #instructor > div > div:last-child p {
+    font-size: 18px;
+    line-height: 1.9rem;
+  }
+
+  .footer {
+    padding: 60px 100px;
+  }
+
+  .footer > div:first-child {
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #course > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    margin: 0px 0px;
+    grid-column-gap: 70px;
+    color: #262626;
+  }
+
+  #course > div > img {
+    width: 336px;
+    height: 340px;
+    border-radius: 20px;
+  }
+}
