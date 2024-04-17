@@ -108,19 +108,115 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   #course > div {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    place-items: center;
-    margin: 0px 0px;
-    grid-column-gap: 70px;
-    color: #262626;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
   }
 
   #course > div > img {
-    width: 336px;
-    height: 340px;
-    border-radius: 20px;
+    width: 335px;
+    height: 220px;
+  }
+
+  #course > div > div div h1 {
+    padding-top: 10px;
+  }
+
+  #curriculum > div > div:first-child {
+    width: 100%;
+  }
+
+  #curriculum > div > div:nth-child(2) {
+    flex-direction: column-reverse;
+    row-gap: 10px;
+  }
+
+  #curriculum > div > div:last-child {
+    text-align: center;
+  }
+
+  #instructor > div > div > div:first-child > img {
+    width: 360px;
+    height: 320px;
+  }
+
+  .footer {
+    padding: 60px;
+  }
+
+  .footer > div:first-child {
+    row-gap: 40px;
+    column-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header > div {
+    padding: 0 25px;
+    justify-content: space-between;
+  }
+
+  header > div div:first-child {
+    flex: 0;
+  }
+
+  header > div nav,
+  header .signup-div {
+    display: none;
+  }
+
+  header .tgl-div {
+    display: block;
+    flex: 0;
+  }
+
+  header .tgl-div button {
+    background-color: #14121d;
+    border: none;
+  }
+
+  header .tgl-div button i {
+    font-size: 25px;
+  }
+
+  #curriculum > div > div:first-child {
+    width: 88%;
+  }
+
+  #curriculum > div > div:nth-child(2) > div:first-child {
+    line-height: 2.4rem;
+  }
+
+  #curriculum > div > div:nth-child(2) > div:first-child > h1 {
+    font-size: 20px;
+  }
+
+  #curriculum > div > div:nth-child(2) > div:first-child li {
+    font-size: 16px;
+  }
+
+  #curriculum > div > div:nth-child(2) > div:last-child img {
+    width: 300px;
+    height: 260px;
+  }
+
+  #curriculum > div > div:last-child {
+    padding: 30px 20px;
+  }
+
+  #instructor > div > div {
+    column-gap: 0;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  #instructor > div > h1 {
+    font-size: 31px;
+  }
+
+  #instructor > div > div > div:first-child > img {
+    width: 300px;
+    height: 300px;
   }
 }
