@@ -68,11 +68,6 @@
     padding: 50px 20px;
   }
 
-  /* #instructor > div {
-    color: #262626;
-    margin: 80px 60px;
-  } */
-
   #instructor > div > h1 {
     font-size: 35px;
   }
@@ -268,7 +263,8 @@
   }
 
   #course > div > div div h1 {
-    font-size: 5vh;
+    font-size: 4vh;
+    /* change to 5vh */
   }
 
   #course > div > div div p {
