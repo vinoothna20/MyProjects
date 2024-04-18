@@ -125,6 +125,7 @@ header .tgl-div {
   font-size: 20px;
   font-weight: 400;
   line-height: 1.9rem;
+  text-align: justify;
 }
 
 #curriculum {
