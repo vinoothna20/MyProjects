@@ -180,6 +180,29 @@
     font-size: 25px;
   }
 
+  #banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    line-height: 3.6rem;
+  }
+
+  #banner > div p:first-child {
+    font-size: 5vh;
+    padding: 0 10px;
+  }
+
+  #banner > div p:nth-of-type(2) {
+    font-size: 3vh;
+    padding: 0 5px;
+    line-height: 2.6rem;
+  }
+
+  #banner > div > div > button {
+    font-size: 17px;
+    padding: 14px 28px;
+  }
+
   #curriculum > div > div:first-child {
     width: 88%;
   }
@@ -218,5 +241,57 @@
   #instructor > div > div > div:first-child > img {
     width: 300px;
     height: 300px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  #banner > div p:first-child {
+    font-size: 5vh;
+    padding: 0 10px;
+  }
+
+  #banner > div p:nth-of-type(2) {
+    font-size: 3vh;
+    padding: 0 5px;
+    line-height: 2.6rem;
+  }
+
+  #banner > div > div > button {
+    font-size: 17px;
+    padding: 14px 28px;
+  }
+
+  #course > div > img {
+    width: 300px;
+    height: 220px;
+  }
+
+  #course > div > div div h1 {
+    font-size: 5vh;
+  }
+
+  #course > div > div div p {
+    font-size: 3vh;
+  }
+
+  #curriculum > div > div:nth-child(2) > div:last-child img {
+    width: 280px;
+    height: 250px;
+  }
+
+  #curriculum > div > div:last-child button {
+    font-size: 20px;
+  }
+
+  #instructor > div > h1 {
+    font-size: 26px;
+  }
+
+  .footer {
+    padding: 40px;
+  }
+
+  .footer > div > div:first-child {
+    flex-basis: 100%;
   }
 }
